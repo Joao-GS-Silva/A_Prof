@@ -27,3 +27,18 @@ section>div{
     width: 350px;
     margin: 10px;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap: 20px;
+}
+
+form {
+    justify-self: start;
+}
+
+nav {
+    justify-self: end;
+}
